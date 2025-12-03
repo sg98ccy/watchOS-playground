@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F796E76A2EE0235F00723F3D /* watchOS playground Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F796E7692EE0235F00723F3D /* watchOS playground Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F796E7A22EE024C500723F3D /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F796E79E2EE024C500723F3D /* CHANGELOG.md */; };
+		F796E7A32EE024C500723F3D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F796E7A02EE024C500723F3D /* LICENSE */; };
+		F796E7A42EE024C500723F3D /* ARCHITECTURE.md in Resources */ = {isa = PBXBuildFile; fileRef = F796E79D2EE024C500723F3D /* ARCHITECTURE.md */; };
+		F796E7A52EE024C500723F3D /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = F796E79F2EE024C500723F3D /* CONTRIBUTING.md */; };
+		F796E7A62EE024C500723F3D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F796E7A12EE024C500723F3D /* README.md */; };
+		F7EAB1882EE0921B00AC1FD7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F7EAB1872EE0921B00AC1FD7 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,12 @@
 /* Begin PBXFileReference section */
 		F796E7632EE0235F00723F3D /* watchOS playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F796E7692EE0235F00723F3D /* watchOS playground Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS playground Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F796E79D2EE024C500723F3D /* ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCHITECTURE.md; sourceTree = "<group>"; };
+		F796E79E2EE024C500723F3D /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		F796E79F2EE024C500723F3D /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		F796E7A02EE024C500723F3D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F796E7A12EE024C500723F3D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F7EAB1872EE0921B00AC1FD7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -61,8 +73,14 @@
 		F796E75C2EE0235C00723F3D = {
 			isa = PBXGroup;
 			children = (
+				F7EAB1872EE0921B00AC1FD7 /* .gitignore */,
 				F796E76D2EE0235F00723F3D /* watchOS playground Watch App */,
 				F796E7642EE0235F00723F3D /* Products */,
+				F796E79D2EE024C500723F3D /* ARCHITECTURE.md */,
+				F796E79E2EE024C500723F3D /* CHANGELOG.md */,
+				F796E79F2EE024C500723F3D /* CONTRIBUTING.md */,
+				F796E7A02EE024C500723F3D /* LICENSE */,
+				F796E7A12EE024C500723F3D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +149,7 @@
 				TargetAttributes = {
 					F796E7622EE0235F00723F3D = {
 						CreatedOnToolsVersion = 26.1.1;
+						LastSwiftMigration = 2610;
 					};
 					F796E7682EE0235F00723F3D = {
 						CreatedOnToolsVersion = 26.1.1;
@@ -162,6 +181,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F796E7A22EE024C500723F3D /* CHANGELOG.md in Resources */,
+				F796E7A32EE024C500723F3D /* LICENSE in Resources */,
+				F7EAB1882EE0921B00AC1FD7 /* .gitignore in Resources */,
+				F796E7A42EE024C500723F3D /* ARCHITECTURE.md in Resources */,
+				F796E7A52EE024C500723F3D /* CONTRIBUTING.md in Resources */,
+				F796E7A62EE024C500723F3D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +339,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "watchOS playground Watch App/watchOS playground Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PTG3SAMFH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchOS playground";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app displays your heart rate and health metrics during workouts.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -327,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchOS-playground.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -347,12 +374,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "watchOS playground Watch App/watchOS playground Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PTG3SAMFH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchOS playground";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app displays your heart rate and health metrics during workouts.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,7 +389,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchOS-playground.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -379,6 +408,7 @@
 		F796E77B2EE0236500723F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PTG3SAMFH4;
@@ -388,6 +418,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -396,6 +427,7 @@
 		F796E77C2EE0236500723F3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PTG3SAMFH4;
