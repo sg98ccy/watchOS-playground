@@ -346,7 +346,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchOS playground";
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app displays your heart rate and health metrics during workouts.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app displays your heart rate and health metrics during workouts. Health data is used only within the app and is not stored, shared, or used for medical purposes.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses Health data to demonstrate Apple Watch health and workout capabilities in an educational and testing environment. Health data is used only within the app and is not stored, shared, or used for medical purposes.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground-jch.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -381,7 +382,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchOS playground";
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app displays your heart rate and health metrics during workouts.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app displays your heart rate and health metrics during workouts. Health data is used only within the app and is not stored, shared, or used for medical purposes.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses Health data to demonstrate Apple Watch health and workout capabilities in an educational and testing environment. Health data is used only within the app and is not stored, shared, or used for medical purposes.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,7 +391,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground-jch.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -414,7 +416,7 @@
 				DEVELOPMENT_TEAM = PTG3SAMFH4;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchOS playground";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchOS-playground";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground-jch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -433,7 +435,7 @@
 				DEVELOPMENT_TEAM = PTG3SAMFH4;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchOS playground";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchOS-playground";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.integratedai.watchos-playground-jch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
